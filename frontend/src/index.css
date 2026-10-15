@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&display=swap');
+
+:root {
+  font-family: 'IBM Plex Sans Thai', 'Leelawadee UI', Tahoma, sans-serif;
+  color: #463944;
+  background: #faf7f8;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  --paper: #fff;
+  --canvas: #faf7f8;
+  --ink: #463944;
+  --muted: #887b86;
+  --line: #eee5ea;
+  --rose: #b96182;
+  --rose-dark: #984867;
+  --rose-pale: #fbedf2;
+  --rose-soft: #fff5f7;
+  --lilac: #796f9c;
+  --lilac-pale: #f1eff8;
+  --mint: #5b8c82;
+  --mint-pale: #eaf4f0;
+  --blue: #64859b;
+  --blue-pale: #edf4f7;
+  --amber: #9b7740;
+  --amber-pale: #fbf5e9;
+  --red: #984c56;
+  --red-pale: #fff0f1;
+  --shadow: 0 10px 28px rgba(78, 51, 67, .055);
+}
+
+* { box-sizing: border-box; }
+html { min-width: 320px; min-height: 100%; background: var(--canvas); }
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background:
+    radial-gradient(circle at 95% 6%, rgba(241, 217, 226, .28), transparent 26rem),
+    radial-gradient(circle at 4% 74%, rgba(224, 238, 233, .23), transparent 28rem),
+    var(--canvas);
+}
+button, input, select { font: inherit; }
+button { -webkit-tap-highlight-color: transparent; }
+button:focus-visible, input:focus-visible, select:focus-visible { outline: 3px solid rgba(185, 97, 130, .23); outline-offset: 2px; }
+::selection { background: #f3dce5; color: #654150; }
+#root { min-height: 100vh; }
